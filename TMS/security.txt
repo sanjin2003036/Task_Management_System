@@ -1,0 +1,13 @@
+<!-- after session start -->
+
+if(isset($SESSION['email'])){
+
+    <!---end of html code-->
+
+
+<?php
+}
+else
+{
+    header('Location:user_login.php')
+}

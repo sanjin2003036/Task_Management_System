@@ -1,0 +1,154 @@
+
+
+body{
+    
+    background-color: #355764;
+    padding: 0px;
+    margin: 0px;
+}
+.row{
+    background-image: url('https://img.freepik.com/premium-photo/graduation-cap-resting-stack-books-outdoors_118124-306161.jpg?w=1380');
+    
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#home_page{
+   
+
+    background-color: #D4F6CC;
+    top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    height: 25vh;
+    width:50vw;
+    
+}
+
+#login_home_page{
+    background-color:#81CACF ;
+    top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    height: 35vh;
+    width:50vw;
+}
+
+#register_home_page{
+    background-color: #81CACF;
+    top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    height: 50vh;
+    width:50vw;
+}
+
+/* Button 4 */
+/*
+
+.btn__1 {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+.btn__1::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.btn__1:hover::before {
+    width: 9em;}
+    */
+
+
+#header {
+    background-color: #D4F6CC !important;
+    height: 8vh;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+
+#left_sidebar{
+    
+    margin-top: 50px;
+    width: 13vw;
+    height: 30vh;
+    display:inline-block;
+    
+}
+#left_sidebar table tr{
+    background-color:#0096FF;
+    color: black;
+    font-size: 18px;
+}
+
+#left_sidebar table tr:hover{
+    background-color: #D4F6CC;
+    font-size: 20px;
+    color: red;
+    
+}
+#logout_link{
+    text-decoration: none;
+    color:black;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: red;
+    background-color: #D4F6CC;/*i ADDED*/ 
+    
+}
+
+#logout_link:hover{
+    background-color: #D4F6CC;
+    color:red;
+    
+}
+
+
+#right_sidebar{
+    padding: 35px;
+    height: 75vh;
+    width: 75vw;
+    display:inline-block;
+    color:white
+}
+
+
+
+
+
+
